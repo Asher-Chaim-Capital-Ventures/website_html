@@ -10286,7 +10286,7 @@ body {
           background-clip: text;
 }
 .masthead h2 {
-  font-size: 1.85rem;
+  font-size: 1rem;
   max-width: 50rem;
   background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.6));
   -webkit-text-fill-color: transparent;
