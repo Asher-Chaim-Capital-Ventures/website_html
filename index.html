@@ -148,8 +148,10 @@
                                 <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
                                 <h2 class="text-white mb-5">Contact Us</h2>
                                 <p>Call us at <a href="tel:+1 602-845-0271">+1 602-845-0271</a>, email us at <a href="mailto:invest@asherchaim.com">invest@asherchaim.com</a>, <br>or fill out the contact form below! <br> </p>
-                                <form name="contact" class="contact--form mb-40" method="POST"  data-netlify="true">
-                                  
+                                <form name="contact" class="contact--form mb-40" method="POST"  data-netlify="true" action = "/form-submission.html">
+                                  <p class="hidden">
+                                    <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                                </p>
                                   <p>
                                     <label class="text-white"><br>Your Name: <input type="text" name="name" /></label>   
                                   </p>  
