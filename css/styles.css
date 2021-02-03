@@ -10169,6 +10169,7 @@ body {
 #mainNav {
   min-height: 3.5rem;
   max-width: 100vw;
+  max-height: 15vh;
   background-color: #000;
 }
 #mainNav .navbar-toggler {
