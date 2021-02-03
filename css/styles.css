@@ -484,6 +484,12 @@ mark,
   height: auto;
 }
 
+.img-logo {
+  height: 60px;
+  width: 60px
+}
+
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -4228,7 +4234,7 @@ input[type=button].btn-block {
     display: none;
   }
 }
-@media (min-width: 68px max-width: 991.98px) {
+@media (min-width: 900px max-width: 991.98px) {
   .navbar-expand-lg > .container,
 .navbar-expand-lg > .container-fluid,
 .navbar-expand-lg > .container-sm,
@@ -8953,6 +8959,12 @@ button.bg-black:focus {
     width: 70%
   }
 
+  .mb-lg-8,
+.my-lg-8 {
+    margin-bottom: 0 !important;
+    margin-left: 10%;
+  }
+
   .ml-lg-0,
 .mx-lg-0 {
     margin-left: 0 !important;
@@ -10154,7 +10166,7 @@ body {
 
 #mainNav {
   min-height: 3.5rem;
-  /*background-color: #000; */
+  background-color: #000;
 }
 #mainNav .navbar-toggler {
   font-size: 80%;
