@@ -493,6 +493,25 @@ mark,
   align-self: flex-start;
 }
 
+.img-fluid-left {
+  max-width: 100%;
+  min-width: auto;
+  max-width: auto;
+  align-self: flex-start;
+  border-radius: 100%;
+  padding: 50px;
+}
+
+.img-fluid-right {
+  max-width: 100%;
+  min-width: auto;
+  max-width: auto;
+  align-self: flex-start;
+  float: right;
+  padding: 50px;
+  border-radius: 100%;
+}
+
 .img-logo {
   height: 60px;
   width: 60px;
@@ -10171,7 +10190,7 @@ h3 {
   }
 }
 body {
-  letter-spacing: 0.0625em;
+  letter-spacing: 0.025em;
 }
 
 #mainNav {
@@ -10346,7 +10365,6 @@ body {
 }
 .projects-section .project-text {
   padding: 3rem;
-  font-size: 90%;
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
@@ -10471,6 +10489,17 @@ textarea{
 }
 
 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
