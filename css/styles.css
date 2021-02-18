@@ -500,6 +500,7 @@ mark,
   align-self: flex-start;
   border-radius: 100%;
   padding: 50px;
+  margin-top: 40px;
 }
 
 .img-fluid-right {
