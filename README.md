@@ -1,2 +1,2 @@
 # website_html
-Newest version of website. Done entirely in HTML
+Newest version of website. Done entirely in HTML and CSS
